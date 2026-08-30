@@ -1,0 +1,29 @@
+# Metrics configuration for Wffv9FNa
+# See https://github.com/lowlighter/metrics#-plugins for full plugin reference
+
+# Base
+base: ["header", "cover", "activity"]
+repository: Wffv9FNa/Wffv9FNa
+
+# Output
+config:
+  output_action: commit
+  padding: "0 8 + 11%"
+  display_clean_architecture: yes
+  multiline_wrapping: yes
+
+# Templates
+template: classic
+
+# Timezone
+config_timezone: Europe/London
+
+# Plugins
+plugins:
+  # --- Core GitHub data ---
+  - {name: achievements, disabled: no}
+  - {name: activity, disabled: no, max_lines: 2}
+  - {name: calendar, disabled: no, max_lines: 2}
+  - {name: languages, disabled: no, limit: 5, details_percentage: yes}
+  - {name: stars, disabled: no, limit: 4}
+  - {name: topics, disabled: no, limit: 12}
