@@ -24,12 +24,10 @@ jobs:
           # Plugins — disabled
           plugin_achievements: no
           plugin_activity: no
+          plugin_habits: no
           plugin_stars: no
           # Plugins — enabled
           plugin_calendar: yes
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_facts: yes
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_languages_sections: most-used, recently-used
