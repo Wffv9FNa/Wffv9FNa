@@ -22,6 +22,8 @@ jobs:
           # Output settings
           output_action: commit
           config_padding: "0 8 + 11%"
+          # Debug
+          debug: yes
           # Plugins — disabled
           plugin_achievements: no
           plugin_activity: no
